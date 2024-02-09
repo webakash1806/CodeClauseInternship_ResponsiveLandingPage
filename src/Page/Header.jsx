@@ -19,7 +19,7 @@ const Header = () => {
                         </div>
                     </ul>
                 </div>
-                <a className="text-xl btn btn-ghost">Mighty Cart</a>
+                <a className="ml-10 text-xl btn btn-ghost">Hotel Imperial</a>
             </div>
             <div className="hidden navbar-center lg:flex">
                 <ul className="px-1 menu menu-horizontal">
@@ -29,7 +29,7 @@ const Header = () => {
                     <li><a>About Us</a></li>
                 </ul>
             </div>
-            <div className='font-semibold text-black navbar-end'>
+            <div className='hidden font-semibold text-black navbar-end lg:block'>
                 <button className='bg-[#fb02ea] hover:bg-[#f829ea] p-1 px-6 rounded-md font-600 mr-2'>Sign up</button>
                 <button className='bg-[#00ffdd] hover:bg-[#00ecfd] p-1 px-6 rounded-md '>Login</button>
             </div>
